@@ -6,6 +6,7 @@
 
     define('SITE_URL','http://127.0.0.1/BookHotel');
     define('ABOUT_IMG_PATH',SITE_URL.'/images/About/');
+    define('CAROUSEL_IMG_PATH',SITE_URL.'/images/Carousel/');
 
 
 
@@ -16,6 +17,7 @@
 
     define('UPLOAD_IMAGE_PATH',$_SERVER['DOCUMENT_ROOT'].'/BookHotel/images/');
     define('ABOUT_FOLDER','About/');
+    define('CAROUSEL_FOLDER','Carousel/');
 
 function adminLogin()
 {
