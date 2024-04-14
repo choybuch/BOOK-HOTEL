@@ -105,7 +105,7 @@
                                                                 $opt[name]
                                                             </label>
                                                         </div>
-
+                                                    ";
                                                   }
                                                 ?>
                                             </div>    
