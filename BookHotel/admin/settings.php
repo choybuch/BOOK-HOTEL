@@ -70,7 +70,7 @@
                 <div class="card border-0 shadow-sm mb-4">
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between mb-3">
-                            <h5 class="card-title m-0">Shutdown Website</h5>
+                            <h5 class="card-title m-0">Maintenance</h5>
                             <div class="form-check form-switch">
                                 <form>
                                     <input onchange="upd_shutdown(this.value)" class="form-check-input" type="checkbox" id="shutdown-toggle">
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                         <p class="card-text">
-                            No customers are allowed to book hotel room when shutdown mode is turned on.
+                            No customers are allowed to book hotel room when maintenance mode is turned on.
                         </p>
                     </div>
                 </div>
