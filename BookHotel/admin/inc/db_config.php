@@ -11,7 +11,8 @@
         die("Cannot Connect to Database".mysqli_connect_error());
     }
 
-    function filteration($data){
+    function filteration($data)
+    {
         foreach($data as $key => $value){
             $value = trim($value);
             $value = stripcslashes($value);
@@ -34,7 +35,7 @@
         $con = $GLOBALS['con'];
         if($stmt = mysqli_prepare($con,$sql))
         {
-            mysqli_stmt_bind_param($stmt,$datatypes,...$values);
+            mysqli_stmt_bind_param($stmt, $datatypes, ...$values);
             if(mysqli_stmt_execute($stmt)){
                 $res = mysqli_stmt_get_result($stmt);
                 mysqli_stmt_close($stmt);
