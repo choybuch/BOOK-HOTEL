@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Hotel - ABOUT</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <?php require('inc/links.php'); ?>
+    <title><?php echo $settings_r['site_title'] ?> - ABOUT</title>
 </head>
 <style>
      @media screen and (max-width: 575px) {
@@ -37,21 +37,22 @@
     <h2 class="fw-bold h2-font text-center h2">ABOUT US</h2>
     <div class="h-line bg-dark"></div>
     <p class="text-center mt-3">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, 
-        sapiente expedita? Ullam cupiditate, <br> nisi nesciunt dolorum quod iste quae 
-        aspernatur?
+            Our hotel embodies a commitment to excellence in every aspect of guest experience. Our ownership is driven by a passion
+            <br>for providing unparalleled service and creating unforgettable memories for our guests. With a focus on innovation,
+            <br>sustainability, and guest satisfaction, our management ensures that every detail is meticulously attended to, from the moment of arrival to departure.
+            <br>We take pride in our hands-on approach, fostering a culture of warmth, efficiency, and attention to detail.
+            <br>At our hotel, you can trust that your comfort and enjoyment are our top priorities.
     </p>
 </div>
 
 <div class="container">
     <div class="row justify-content-between align-items-center">
         <div class="col-lg-6 col-md-5 mb-4 order-lg-1 order-md-1 order-2">
-            <h3 class="mb-3">Lorem ipsum dolor sit.</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Repellat culpa, deleniti nesciunt ex alias possimus placeat.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Repellat culpa, deleniti nesciunt ex alias possimus placeat.
+            <h3 class="mb-3">Who we are?</h3>
+            <p style="text-indent: 20px;">
+                Our Hotel is proudly owned by a reputable and esteemed group committed to the highest standards of hospitality and guest satisfaction. Their unwavering
+                dedication to quality ensures that every detail, from the ambiance of our surroundings to the amenities we offer, reflects their passion for creating
+                unforgettable moments for our guests.
             </p>
         </div>
         <div class="col-lg-5 col-md-5 mb-4 order-lg-2 order-md-2 order-1">

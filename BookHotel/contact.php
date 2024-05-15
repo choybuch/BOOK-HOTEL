@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Hotel - CONTACT</title>
     <?php require('inc/links.php'); ?>
-
+    <title><?php echo $settings_r['site_title'] ?> - CONTACT</title>
 <style>
     @media screen and (max-width: 575px) {
      .h2{
@@ -23,9 +22,11 @@
         <h2 class="fw-bold h2-font text-center h2">CONTACT US</h2>
         <div class="h-line bg-dark"></div>
         <p class="text-center mt-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, 
-            sapiente expedita? Ullam cupiditate, <br> nisi nesciunt dolorum quod iste quae 
-            aspernatur?
+                    Have questions or ready to book your stay? Our hotel's dedicated team is here to assist you
+            <br>every step of the way. Reach out to us via phone, email, or visit our website to connect with our friendly staff.
+            <br>Whether you need assistance with reservations, have special requests, or require information about our amenities,
+            <br>we're always just a click or call away. Experience personalized service and prompt assistance with our Hotel,
+            <br>where your comfort and satisfaction are our top priorities.
         </p>
     </div>
 
