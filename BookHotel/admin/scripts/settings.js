@@ -87,11 +87,11 @@
             xhr.onload = function(){
                 if(this.responseText == 1 && general_data.shutdown==0)
                 {
-                    alert('success','Site has been shutdown!');
+                    alert('success','Site is on maintenance mode!');
                 }
                 else
                 {
-                    alert('error','Shutdown mode off!');
+                    alert('error','Maintenance mode off!');
 
                 }
                 get_general();
