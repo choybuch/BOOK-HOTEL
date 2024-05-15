@@ -44,7 +44,7 @@ input::-webkit-inner-spin-button {
  .dark-maroon{
    background-color: #2d0404;
  }
-
+ 
  .maroon{
    background-color: #631111;
  }
@@ -82,12 +82,12 @@ input::-webkit-inner-spin-button {
  
  /* Handle */
  ::-webkit-scrollbar-thumb {
-   background: rgb(36,36,36);
+   background: rgb(88, 15, 15);
  }
  
  /* Handle on hover */
  ::-webkit-scrollbar-thumb:hover {
-   background: #555;
+   background: #d67575;
  }
  
  @media screen and (max-width: 991px) {
